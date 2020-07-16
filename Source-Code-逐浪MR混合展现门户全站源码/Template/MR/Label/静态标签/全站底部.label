@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>318</LabelID>
+    <LabelName>全站底部</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;div class="home_footer"&gt;
+&lt;div class="container"&gt;
+&lt;ul&gt;
+&lt;li&gt;了解&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;逐浪MR&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;独特能力&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;产品矩阵&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;方案案例&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;开发&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;文档&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;工具下载&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;开发平台&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;方案案例&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;关于&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;新生产力研究院&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;博客动态&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;核心团队&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="clearfix"&gt;&lt;/div&gt;
+&lt;p&gt;{$Copyright/}&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue />
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType />
+    <ConnectString />
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>

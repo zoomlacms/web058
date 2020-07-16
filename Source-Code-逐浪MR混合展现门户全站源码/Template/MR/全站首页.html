@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="msapplication-TileColor" content="#1A0066"/>
+<meta name="msapplication-TileImage" content="/images/win8_symbol_140x140.png"/>
+<title>{$SiteName/}_首页</title>
+{$MetaKeywords/}
+{$MetaDescription/}
+{ZL:Boot()/}
+<link href="{$CssDir/}global.css?Version={ZL.Label id="前端样式版本号"/}" rel="stylesheet"/>
+</head>
+<body>
+<div class="home_nav" id="home_nav">
+<nav class="navbar navbar-default">
+<div class="container">
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="/"><img src="{$CssDir/}images/logo_w.svg" alt="{$SiteName/}"></a>
+</div>
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav navbar-right">
+<li class="active"><a href="/">首页</a></li>
+<li><a href="#">知识</a></li>
+<li><a href="#">技术</a></li>
+<li><a href="#">案例</a></li>
+<li><a href="#">动态</a></li>
+<li><a href="#">团队</a></li>
+<li><a href="#">联系</a></li>
+<li><a href="#">新生产力研究院</a></li>
+</ul>
+</div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</nav>
+</div>
+
+<div class="home_video">
+<video id="js-video" loop autoplay><source src="{$CssDir/}images/index-video.mp4" type="video/mp4" /></video>
+<div id="video-cover"></div>
+</div>
+
+<div class="home_block">
+<div class="home_block_tit">MR</div>
+<div class="home_block_sys">智能AR眼镜是逐浪研发的下一代计算中心，致力于改变人们未来获取信息和对象交互的方式</div>
+<div class="home_block_btn"><a href="#"><i class="fa fa-newspaper-o" aria-hidden="true"></i> 了解产品</a></div>
+</div>
+
+<div class="home_pic"></div>
+
+
+<div class="home_re">
+<div class="container">
+<div class="home_re_d">
+<div class="home_re_tit">专注VR & MR 开发</div>
+<div class="home_re_tit1">服务领域</div>
+<ul >
+<li>
+<div class="text_tit">MR</div>
+<div class="text_sys">即包括增强现实&amp;虚拟现实，指的是合并现实和虚拟世界而产生的新的可视化环境<br/><br/>在新的可视化环境里物理和数字对象共存，并可实时互动，给用户带来新的生活体验</div>
+</li>
+<li>
+<div class="text_tit">MR</div>
+<div class="text_sys">即包括增强现实&amp;虚拟现实，指的是合并现实和虚拟世界而产生的新的可视化环境<br/><br/>在新的可视化环境里物理和数字对象共存，并可实时互动，给用户带来新的生活体验</div>
+</li>
+<li>
+<div class="text_tit">MR</div>
+<div class="text_sys">即包括增强现实&amp;虚拟现实，指的是合并现实和虚拟世界而产生的新的可视化环境<br/><br/>在新的可视化环境里物理和数字对象共存，并可实时互动，给用户带来新的生活体验</div>
+</li>
+<div class="clearfix"></div>
+</ul>
+</div>
+</div>
+</div>
+<div class="home_news">
+<div class="container">
+<div class="news_c">
+<ul>
+{ZL.Label id="首页输出新闻列表" NodeID="1" TitleNum="30" ShowNum="3" /}
+</ul>
+</div>
+</div>
+</div>
+<div class="home_case">
+<div class="home_case_tit">合作案例介绍</div>
+<ul>
+<li>
+<div class="home_case_list">
+<img src="{$CssDir/}images/home_case1.jpg" alt="" />
+<div class="home_case_c"><p>民用飞机航线维护</p></div>
+</div>
+</li>
+<li>
+<div class="home_case_list">
+<img src="{$CssDir/}images/home_case2.jpg" alt="" />
+<div class="home_case_c"><p>军用飞机发动机维修</p></div>
+</div>
+</li>
+<li>
+<div class="home_case_list">
+<img src="{$CssDir/}images/home_case3.jpg" alt="" />
+<div class="home_case_c"><p>数字博物馆</p></div>
+</div>
+</li>
+<li>
+<div class="home_case_list">
+<img src="{$CssDir/}images/home_case4.jpg" alt="" />
+<div class="home_case_c"><p>智慧城市管廊项目</p></div>
+</div>
+</li>
+<div class="clearfix"></div>
+</ul>
+</div>
+<div class="home_footer">
+<div class="container">
+<ul>
+<li>了解</li>
+<li><a href="#">逐浪MR</a></li>
+<li><a href="#">独特能力</a></li>
+<li><a href="#">产品矩阵</a></li>
+<li><a href="#">方案案例</a></li>
+</ul>
+<ul>
+<li>开发</li>
+<li><a href="#">文档</a></li>
+<li><a href="#">工具下载</a></li>
+<li><a href="#">开发平台</a></li>
+<li><a href="#">方案案例</a></li>
+</ul>
+<ul>
+<li>关于</li>
+<li><a href="#">新生产力研究院</a></li>
+<li><a href="#">博客动态</a></li>
+<li><a href="#">核心团队</a></li>
+</ul>
+<div class="clearfix"></div>
+<p>{$Copyright/}</p>
+</div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript">
+//检测固顶事件
+var IO=document.getElementById('home_nav'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+
+//手机下右侧导航菜单效果
+$(function () {
+    $('button.navbar-toggle').click(function () {
+        $('body').toggleClass('out');
+        $('nav.navbar-fixed-top').toggleClass('out');
+        if ($('body').hasClass('out')) {
+            $(this).focus();
+        }
+        else {
+            $(this).blur();
+        }
+    });
+});
+$(document).click(function (e) {
+    if (!$(e.target).closest('.navbar-collapse, button.navbar-toggle').length && $('body').hasClass('out')) {
+        e.preventDefault();
+        $('button.navbar-toggle').trigger('click');
+    }
+}).keyup(function (e) {
+    if (e.keyCode == 27 && $('body').hasClass('out')) {
+        $('button.navbar-toggle').trigger('click');
+    }
+});
+
+//点击视频暂停播放
+var flag = true;
+var video = $("video#js-video");
+$("#video-cover").click(function() {
+    if (flag == true) {
+        video[0].pause();
+        flag = false
+    } else {
+        video[0].play();
+        flag = true
+    }
+});
+</script>
